@@ -1,0 +1,189 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #5F6F52;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #ccc;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #5F6F52;
+  }
+  
+.menu li {
+    float: left;
+  }
+  
+.menu li a {
+    display: block;
+    color: #ccc;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+.menu li a:hover {
+    background-color: #A9B388;
+  }
+
+#home {
+    background-color: #FEFAE0;
+    padding: 20px 0;
+    text-align: center;
+    height: 600px;
+    
+}
+.kolom{
+    text-align: center;
+    
+}
+.kolom img{
+    position: absolute;
+    right: 6%;
+    top: 40%;
+    width: 250px;
+    height: auto;
+    border-radius: 50%;
+}
+.kolom img:hover{
+    position: absolute;
+    right: 3%;
+    top: 20%;
+    width: 340px;
+    height: auto;
+    border-radius: 50%;
+    transform: scale(1.1);
+    transition: 0.5s ease;
+}
+.kolom h2{
+    font-size: 50px;
+    font-weight: 800;
+    position: absolute;
+    padding: 30px;
+    margin-top: 85px;
+    width: 840px;
+    height: auto;
+    text-align: left;
+}
+.kolom p{
+    font-size: 20px;
+    font-weight: 200;
+    text-align: justify;
+    margin-top: 120px;
+    padding: 30px;
+    left: 0%;
+    top: 35%;
+    width: 800px;
+    position: absolute;
+    height: auto;
+}
+#tim{
+    padding: 100px;
+    background-color: #B99470;
+}
+#tim h2{
+    text-align: center;
+    font-weight: 700;
+}
+.member{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.card-member{
+    border: 1px solid #B99470;
+    padding: 15px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #5F6F52;
+}
+.card-member:hover{
+    border: 1px solid #ccc;
+    padding: 15px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #A9B388;
+    color: #5F6F52;
+    transform: scale(1.1);
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.card-member img {
+    border-radius: 30%;
+    width: 150px; 
+    height: 200px; 
+    transition: transform 0.3s ease; 
+}
+.card-member img:hover {
+    border-radius: 10%;
+    width: 200px; 
+    height: 300px; 
+    transition: transform 0.3s ease; 
+}
+
+#portopolio{
+    padding: 60px;
+    background-color: #FEFAE0;
+}
+#portopolio h2{
+    text-align: center;
+    font-weight: 700;
+}
+.product{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+}
+.card-product{
+    border: 1px solid #ca1010;
+    background-color: #B99470;
+    padding: 15px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.card-product:hover{
+    border: 1px solid #ccc;
+    padding: 15px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #A9B388;
+    color: black;
+    transform: scale(1.1);
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.card-product img {
+    border-radius: 10%;
+    width: 150px; 
+    height: 150px; 
+    transition: transform 0.3s ease; 
+}
+
